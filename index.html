@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f6cf39"><meta name="description" content="Easy read-aloud trivia for morning meetings. Pick a category, mix a round, and remember every question you have asked.">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Morning Trivia</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+<script defer src="questions.js"></script><script defer src="core.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<header class="top"><a href="#home" class="brand" aria-label="Morning Trivia home"><span class="brand-icon">?</span><span>MORNING<br>TRIVIA<span class="brand-dot">.</span></span></a><span class="edition">BURWOOD<br><b>MEETING EDITION</b></span></header>
+<nav class="tabs" aria-label="Main navigation"><button data-view="home" class="active">Play</button><button data-view="history">History <span id="history-count">0</span></button><button data-view="settings">Settings</button></nav>
+<div id="storage-warning" role="alert" hidden></div>
+<main id="main" tabindex="-1"></main>
+<footer><span>GOOD QUESTIONS. GREAT START.</span><span>Personal edition · v1.0.0</span></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="flag-dialog"><form method="dialog" id="flag-form"><p class="eyebrow">QUESTION REVIEW</p><h2>Hide this question?</h2><p>It will stay out of future rounds on this device. You can restore it from History.</p><label for="flag-reason">Your note <span class="muted">(optional)</span></label><textarea id="flag-reason" maxlength="500" rows="3" placeholder="For example: wording is unclear"></textarea><p class="muted small">Notes stay on your device; they are not sent anywhere.</p><div class="actions"><button value="cancel" class="secondary">Cancel</button><button value="hide" class="primary">Hide question</button></div></form></dialog>
+<noscript>This trivia app needs JavaScript enabled to display questions and save history.</noscript>
+</body></html>
