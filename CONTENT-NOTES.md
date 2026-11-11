@@ -25,3 +25,7 @@ Automated checks passed for question counts, exact duplicates, choice uniqueness
 ## Categories
 
 General knowledge; Australia; Movies; TV shows; Music; Gaming; Technology; Sport; Animals; Nature; Food and drink; Geography; Science; Space; History; Famous people; Books and literature; Brands and logos; Everyday objects; Mixed fun facts.
+
+## Build 2 — 12 November 2026
+
+Added 40 easy Grand Theft Auto questions, taking the bank to 2,040 across 21 categories. The new questions cover the original series, GTA III, Vice City, San Andreas, GTA IV and GTA V. Answers were checked using Rockstar game descriptions, the official GTA V manual and cited game reference articles. Three distinct choices per question. Existing question IDs and browser storage keys remain unchanged, preserving used-question history and backups. The offline cache has a new build identifier; close and reopen the app after it downloads the update.

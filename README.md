@@ -1,8 +1,8 @@
-# Morning Trivia — v1.0.0
+# Morning Trivia — v1.0.0 · Build 2
 
 A personal trivia host for Chris’s morning meetings at Burwood.
 
-- 2,000 easy questions: 100 in each of 20 categories.
+- 2,040 easy questions: 100 in each of the original 20 categories, plus 40 Grand Theft Auto questions.
 - Three choices per question: one correct answer and two alternatives.
 - Choose one or several categories, or mix everything.
 - Rounds of 5, 10 or 15 questions, or keep going.
