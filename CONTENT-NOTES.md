@@ -29,3 +29,8 @@ General knowledge; Australia; Movies; TV shows; Music; Gaming; Technology; Sport
 ## Build 2 — 12 November 2026
 
 Added 40 easy Grand Theft Auto questions, taking the bank to 2,040 across 21 categories. The new questions cover the original series, GTA III, Vice City, San Andreas, GTA IV and GTA V. Answers were checked using Rockstar game descriptions, the official GTA V manual and cited game reference articles. Three distinct choices per question. Existing question IDs and browser storage keys remain unchanged, preserving used-question history and backups. The offline cache has a new build identifier; close and reopen the app after it downloads the update.
+
+
+## Build 3 — 26 November 2026
+
+Added the 53 Australian music questions approved by Chris, including Frenzal Rhomb, Grinspoon and The Cat Empire. Total: 2,093 questions across 22 categories. References checked against ARIA, NFSA, ABC, artist sites and other cited sources. Existing IDs, storage keys and round behaviour are unchanged. New rounds shuffle questions and choices; resumed rounds retain their order.

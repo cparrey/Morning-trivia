@@ -1,8 +1,8 @@
-# Morning Trivia — v1.0.0 · Build 2
+# Morning Trivia — v1.0.0 · Build 3
 
 A personal trivia host for Chris’s morning meetings at Burwood.
 
-- 2,040 easy questions: 100 in each of the original 20 categories, plus 40 Grand Theft Auto questions.
+- 2,093 easy questions: 100 in each of the original 20 categories, plus 40 Grand Theft Auto and 53 Australian music questions.
 - Three choices per question: one correct answer and two alternatives.
 - Choose one or several categories, or mix everything.
 - Rounds of 5, 10 or 15 questions, or keep going.
@@ -55,3 +55,4 @@ See `CONTENT-NOTES.md` for the review scope and limitations. Every question incl
 `checks.cjs` runs data and state checks with `node checks.cjs` (Node is for development only). No installation needed to host or use the app.
 
 This delivery was checked with JavaScript syntax and automated data/state checks. A browser UI or actual iPhone test was not available in the build environment; test a short round and backup on your phone after publication.
+
